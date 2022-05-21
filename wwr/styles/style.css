@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Titillium+Web:wght@300&display=swap');
 
 #content {
     max-width:1600px;
@@ -6,10 +7,22 @@
 
 body {
     background-color: #D0CD94;
+    font-family: "Tillium+Web", Helvetica, sans-serif;
+    font-size: 22px;
+    margin:0;
+    padding:0;
 }
 
 header {
     background-color: #315C2B;
+    padding-left: 35px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.logo {
+    width:80px;
+    padding-left: 15px;
 }
 
 nav a {
@@ -17,6 +30,7 @@ nav a {
     background-color: #315C2B;
     color: #D0CD94;
     text-decoration: none;
+    padding: 5px 35px 
 }
 
 nav a:hover {
@@ -27,15 +41,21 @@ nav a:hover {
 
 p {
     color:black;
+    padding-bottom: 15px;
 }
 
 main section {
     text-align: center;
 }
+main section image {
+    box-sizing: border-box;
+}
 
 footer {
     background-color: #b1af83;
     color: #274029;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     
@@ -49,24 +69,28 @@ footer a:hover {
 }
 h2 {
     color: black;
+    margin:0;
 }
 
 .home-title {
-    color: black
+    color: black;
+    margin-top:10px;
 }
 
-.logo {
-    width:80px
-}
+
 
 .icon {
     width:100px;
+    padding-top:10px;
 }
 
 .book {
     background-color: #D0CD94;
     color: black;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top:50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #b1af83;
@@ -78,6 +102,10 @@ h2 {
     background-color: #b1af83;
     color: black;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top:50px;
+    border-radius: 5px;
+
 }
 .join:hover {
     background-color: #D0CD94;
@@ -107,7 +135,38 @@ h2 {
     background-color: #b1af83;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .msg {
     background-color: #b1af83;
-    color: black
+    color: black;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.home-title {
+    font-family: '', '', sans-serif;
+    font-size: 2em
+}
+
+footer .social img{
+    padding: 35px;
+}
+
+.card-img {
+    border: 5px solid #274029
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
 }
