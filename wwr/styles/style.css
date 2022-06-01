@@ -150,8 +150,8 @@ h2 {
 
 #background {
     background-color: #b1af83;
-    grid-template-columns: 1/11;
-    grid-template-rows: 4/9;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 
 main.home-grid {
