@@ -214,6 +214,17 @@ main.home-grid {
     margin: 200px 0px;
 }
 
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 35px;
+    margin: 55px 50px;
+}
+
+.rivers-img {
+    width: 100%;
+}
+
 footer {
     background-color: #b1af83;
     color: #274029;
