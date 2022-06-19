@@ -221,6 +221,16 @@ main.home-grid {
     margin: 55px 50px;
 }
 
+.salmon {
+    grid-column: 1/2;
+}
+.desolation {
+    grid-column: 2/3;
+}
+.grand-canyon {
+    grid-column: 3/4;
+}
+
 .rivers-img {
     width: 100%;
 }
