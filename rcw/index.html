@@ -10,7 +10,7 @@
 
 <body>
     <div id="content">
-        <header>
+        <header id="navbar">
             <a href="index.html" id="logo_link">
                 <img class="logo" src="images/logo.png" alt="black and white climber logo">
             </a>
@@ -20,6 +20,20 @@
                 <a href="faq.html">FAQ</a>
             </nav>
         </header>
+
+        <script>
+            window.onscroll = function() {myFunction()};
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+            }
+        </script>
+
 
         <div id="banner">
             <div id="title"> 
