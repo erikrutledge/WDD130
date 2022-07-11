@@ -172,7 +172,7 @@ footer a:hover {
 .teton-text {
     grid-column: 2/3;
     grid-row: 2/3;
-    margin: auto 60px;
+    margin: -30px 60px;
 }
 .heise-title {
     grid-column: 1/2;
@@ -185,7 +185,7 @@ footer a:hover {
 .heise-text {
     grid-column: 2/3;
     grid-row: 4/5;
-    margin: auto 60px;
+    margin: -30px 60px;
 }
 .pointless-title {
     grid-column: 1/2;
@@ -198,7 +198,7 @@ footer a:hover {
 .pointless-text {
     grid-column: 2/3;
     grid-row: 6/7;
-    margin: auto 60px;
+    margin: -30px 60px;
 }
 .explore-img {
     width: 100%;
