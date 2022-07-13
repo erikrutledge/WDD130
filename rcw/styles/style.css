@@ -20,6 +20,7 @@ header {
     padding-bottom:15px;
     display: grid;
     grid-template-columns: 150px auto 100px;
+    box-shadow: 5px 5px 10px #2b3a37;
 }
 
 .logo {
@@ -205,7 +206,55 @@ footer a:hover {
     margin-left: 50px;
 }
 
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
+.bouldering-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    box-shadow: 5px 5px 10px #2b3a37;
+}
+.faq1 {
+    grid-column: 1/2;
+    margin-left: -50px;
+}
+.answer1 {
+    grid-column: 1/2;
+}
+.descending-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
+    box-shadow: 5px 5px 10px #2b3a37;
+}
+.faq2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: -50px;
+}
+.answer2 {
+    grid-column: 2/3;
+}
+.belaying-img {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 100%;
+    box-shadow: 5px 5px 10px #2b3a37;
+}
+.faq3 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-left: -50px;
+}
+.answer3 {
+    grid-column: 3/4;
+}
  /* .sticky {
     position: fixed;
     top: 0;
